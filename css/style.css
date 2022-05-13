@@ -1,139 +1,64 @@
+body {
+  background-color: #ffffff
+}
 
-  body {
-    height: 100%
-  }
+div {
+  text-align: center;
+}
 
-  .thumbsBox {
-    width: 50%;
-    height: 50%;
-    font-size: 200px;
-  }
+div #headerBox {
+  color: #000000;
+  font-size: 50px;
+  margin: 10px
+}
 
-  .pTop {
-    position: absolute;
-    top: 0px;
-    border: 5px solid black;
-  }
+p {
+  color: #000000;
+  font-size: 25px
+}
 
-  .pBot {
-    position: absolute;
-    bottom: 0px;
-    border: 5px solid black;
-  }
+h2 {
+  color: #000000;
+  font-size: 35px
+}
 
-  .pLeft {
-    position: absolute;
-    left: 0px;
-  }
+}
 
-  .pRight {
-    position: absolute;
-    right: 0px;
-  }
+.blogBox {
+  margin: 50px;
+}
 
-  #tUp {
-    background-color: #99ff99
-  }
+a:link {
+  color: olive;
+}
 
-  #tDown {
-    background-color: #ffbbbb
-  }
+a:visited {
+  color: olive;
+}
 
-  #tWiggle {
-    background-color: #bbffff
-  }
+a:hover {
+  color: olive;
+}
 
-  #tOops {
-    background-color: #ffffbb
-  }
+a:active {
+  color: olive;
+}
 
-  #tUp:hover {
-    background-color: #bfbfbf;
-  }
+#menuBox {
+  Display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: #fd9983
+}
 
-  #tDown:hover {
-    background-color: #bfbfbf
-  }
+.links {
+  display: inline
+}
 
-  #tWiggle:hover {
-    background-color: #bfbfbf
-  }
+.links {
+  font-size: 100px
+}
 
-  #tOops:hover {
-    background-color: #bfbfbf
-  }
+.blogBox {
 
-  div {
-    text-align: center;
-  }
-
-
-
-    div #headerBox {
-      color: magenta;
-      font-size: 300px;
-      margin: 50px
-    }
-
-    p {
-      color: white;
-      font-size: 150px
-    }
-
-    h2 {
-      color: Aquamarine;
-      font-size: 50px
-    }
-
-    * {
-      font-family: comic sans ms;
-    }
-
-    #headerBox {
-      border: 20px dashed;
-      margin: 50px
-    }
-
-    .paraBox {
-      border: 45px solid Aquamarine;
-      margin: 50px;
-      background: yellow
-    }
-
-    body {
-      border: 25px dotted black
-    }
-
-    a:link {
-      color: olive;
-    }
-
-    a:visited {
-      color: olive;
-    }
-
-    a:hover {
-      color: olive;
-    }
-
-    a:active {
-      color: olive;
-    }
-
-    div {
-      border: 15px dotted #00ffff;
-    }
-
-    #navBox {
-      Display: flex;
-      justify-content: space-evenly;
-      flex-wrap: wrap;
-      background-color: #fd9983
-    }
-
-    .links {
-      display: inline
-    }
-    .links {
-      font-size: 100px
-    }
+}

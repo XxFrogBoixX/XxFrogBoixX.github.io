@@ -48,17 +48,13 @@ a:active {
   Display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  background-color: #fd9983
 }
 
-.links {
-  display: inline
-}
-
-.links {
-  font-size: 100px
-}
 
 .blogBox {
 
+}
+
+.linkBox {
+  border: solid #1b1c1b
 }

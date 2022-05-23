@@ -1,5 +1,5 @@
 body {
-  background-color: #ffffff
+  background-color: #edeff2
 }
 
 div {
@@ -7,9 +7,10 @@ div {
 }
 
 div #headerBox {
-  color: #000000;
+  background-color: #f5e90a;
   font-size: 50px;
   margin: 10px
+  padding: inherit;
 }
 
 p {
@@ -57,4 +58,8 @@ a:active {
 
 .linkBox {
   border: solid #1b1c1b
+}
+
+#shrek {
+  float: inherit;
 }

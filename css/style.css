@@ -1,5 +1,5 @@
 body {
-  background-color: #edeff2
+  background-color: #edd9b2
 }
 
 div {
@@ -10,7 +10,13 @@ div #headerBox {
   background-color: #f5e90a;
   font-size: 50px;
   margin: 10px
-  padding: inherit;
+}
+
+div #headerBox {
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
 }
 
 p {
@@ -23,6 +29,8 @@ h2 {
   font-size: 35px
 }
 
+h2 {
+  text-shadow: 2px 2px #f5e90a;
 }
 
 .blogBox {
@@ -51,10 +59,7 @@ a:active {
   flex-wrap: wrap;
 }
 
-
-.blogBox {
-
-}
+.blogBox {}
 
 .linkBox {
   border: solid #1b1c1b
